@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'StyleCabin';
+    src: url('Style/Cabin.otf') format('opentype');
+}
+
+body {
+	background-image: url("IMG/back.png");
+	background-attachment: fixed;
+	font-family: "StyleCabin", Arial;
+}
+
+/* Header */
+h1, h1+p {
+	text-align: center;
+}
+
+h1 {
+	text-shadow: 2px 2px 5px grey;
+}
+
+h1+p {
+	font-style: italic;
+}
+
+#img_cv {
+	float: right;
+}
+
+/* Liste */
+h2 {
+	clear: both;
+	color: rgb(97, 48, 48);
+	border-top : 1px grey solid;
+}
+
